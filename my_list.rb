@@ -6,4 +6,5 @@ class MyList
   def initialise(*arg)
     @list = arg
   end
+  
 end
