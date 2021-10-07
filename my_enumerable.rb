@@ -4,4 +4,10 @@ module Enumerables
     true
   end
 
+  def any?
+    each { |num| return true if yield num }
+    false
+  end
+
+  
 end
