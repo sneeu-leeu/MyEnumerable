@@ -9,5 +9,8 @@ module Enumerables
     false
   end
 
-  
+  def filter
+    chosen = []
+    each { |num| chosen << num if yield num }
+  end
 end
