@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 5000,
+    "ruby.rubocop.executePath": "path/where/rubocop/is/located",
+    "ruby.format": "rubocop"
+}
