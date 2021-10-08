@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module Enumerables
   def all?
     each { |num| return false unless yield num }
@@ -12,7 +10,8 @@ module Enumerables
   end
 
   def filter
-    chosen = []
-    each { |num| chosen << num if yield num }
+    filtered = []
+    each { |num| filtered << num if yield num }
+    filtered
   end
 end
