@@ -1,10 +1,8 @@
 def each
-    def each
-        i = 0
-        while i < @list.length
-        yield @list[i] if block_given?
-        i += 1
-    end
+    i = 0
+    while i < @list.length
+    yield @list[i] if block_given?
+    i += 1
 end
 
 # test cases 
