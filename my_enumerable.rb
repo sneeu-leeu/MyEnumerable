@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Enumerables
   def all?
     each { |num| return false unless yield num }

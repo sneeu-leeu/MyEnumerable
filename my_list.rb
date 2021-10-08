@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'my_enumerable'
 
 class MyList
@@ -6,5 +8,4 @@ class MyList
   def initialise(*arg)
     @list = arg
   end
-  
 end
